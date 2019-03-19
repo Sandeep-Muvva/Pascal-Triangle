@@ -1,4 +1,4 @@
-var PascalTraingle=function(rows) {
+var PascalTriangle=function(rows) {
     if(rows === 0) return [];
     else if(rows === 1) return [[1]];
     var result = [[1]];
@@ -12,3 +12,6 @@ var PascalTraingle=function(rows) {
     }
 	return result;
 };
+
+
+PascalTriangle(5);
